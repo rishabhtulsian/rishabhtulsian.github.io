@@ -1,0 +1,35 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Rishabh Tulsian
+tagline:             Whimsical Coder
+url:                 http://rishabh.tulsian.me
+baseurl:             ""
+permalink:           "/blog/:year/:month/:day/:title.html"
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Rishabh Tulsian
+  url:               http://rishabh.tulsian.me
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/rishabhtulsian/rishabhtulsian.github.io
+
+# This is the list of pages to include in the header of the website.
+pages_list:
+  Archive:           "/blog/archive"
+  Feed:              "/blog/atom.xml"
+
+analytics_id:        "UA-73611480-2"
+# Gems
+gems:
+  - jekyll-gist
