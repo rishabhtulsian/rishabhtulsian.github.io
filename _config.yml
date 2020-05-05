@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Rishabh Tulsian
 tagline:             Whimsical Coder
-url:                 http://rishabh.tulsian.me
+url:                 https://rishabh.tulsian.com
 baseurl:             ""
 permalink:           "/blog/:year/:month/:day/:title.html"
 
@@ -17,7 +17,7 @@ sass:
 # About/contact
 author:
   name:              Rishabh Tulsian
-  url:               http://rishabh.tulsian.me
+  url:               https://rishabh.tulsian.com
 
 # Custom vars
 version:             1.0.0
