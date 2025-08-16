@@ -1,12 +1,10 @@
-# Permalinks
-permalink:           pretty
-
 # Setup
 title:               Rishabh Tulsian
 tagline:             Whimsical Coder
 url:                 https://rishabh.tulsian.com
 baseurl:             ""
-permalink:           "/blog/:year/:month/:day/:title.html"
+# Permalink structure for blog posts
+permalink: "/blog/:year/:month/:day/:title.html"
 
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
